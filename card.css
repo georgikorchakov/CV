@@ -1,0 +1,28 @@
+.card {
+  width: 100%;
+  background-color: white;
+  border-radius: 7px;
+  margin-top: 10px;
+  -webkit-box-shadow: 6px 6px 13px -4px rgba(179,179,179,0.71);
+  -moz-box-shadow: 6px 6px 13px -4px rgba(179,179,179,0.71);
+  box-shadow: 6px 6px 13px -4px rgba(179,179,179,0.71);
+}
+
+.card-title {
+  border-bottom: 2px solid #aaa;
+  width: 100%;
+  font-size: 30px;
+  color: #666;
+  font-family: Courier New;
+}
+
+.card-text {
+  font-size: 20px;
+  color: #444;
+  padding: 10px;
+  font-family: Lucida;
+}
+
+.card-image {
+  width: 100%;
+}
