@@ -27,6 +27,33 @@ body {
   top: -80px;
 }
 
+@media screen and (max-width: 1280px) {
+  .scroll-point {
+    position: absolute;
+    width: 100%;
+    top: -135px;
+    height: 135px;
+  }
+}
+
+@media screen and (max-width: 671px) {
+  .scroll-point {
+    position: absolute;
+    width: 100%;
+    top: -165px;
+    height: 165px;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .scroll-point {
+    position: absolute;
+    width: 100%;
+    top: -200px;
+    height: 200px;
+  }
+}
+
 section {
   position: relative;
 }

@@ -219,7 +219,17 @@
       function Header() {
         if (window.pageYOffset > sticky) {
           header.classList.add("sticky");
-          document.getElementById("content").style.paddingTop = "85px";
+          console.log(window.screen.width)
+
+          if (window.innerWidth > 1280) {
+            document.getElementById("content").style.paddingTop = "85px";
+          } else if (window.innerWidth > 671){
+            document.getElementById("content").style.paddingTop = "135px";
+          } else if (window.innerWidth > 645){
+            document.getElementById("content").style.paddingTop = "165px";
+          } else {
+            document.getElementById("content").style.paddingTop = "210px";
+          }
         } else {
           header.classList.remove("sticky");
           document.getElementById("content").style.paddingTop = "0px";
