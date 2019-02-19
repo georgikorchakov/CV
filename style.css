@@ -69,11 +69,11 @@ section {
   transition: 0.2s;
   z-index: 90;
   font-size: 40px;
+  word-spacing: -15px;
 }
 
 .header-link {
   color: white;
-  word-spacing: -15px;
   margin-right: 40px;
   font-family: Courier New;
   text-decoration: none;

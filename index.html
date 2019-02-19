@@ -221,6 +221,7 @@
           header.classList.add("sticky");
           console.log(window.screen.width)
           document.getElementById("header").style.fontSize = "40px";
+          document.getElementById("header").style.wordSpacing = "-10px";
 
           if (window.innerWidth > 1280) {
             document.getElementById("content").style.paddingTop = "85px";
@@ -231,6 +232,7 @@
           } else {
             document.getElementById("content").style.paddingTop = "230px";
             document.getElementById("header").style.fontSize = "30px";
+            document.getElementById("header").style.wordSpacing = "-5px";
           }
         } else {
           header.classList.remove("sticky");
