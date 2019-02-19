@@ -220,6 +220,7 @@
         if (window.pageYOffset > sticky) {
           header.classList.add("sticky");
           console.log(window.screen.width)
+          document.getElementById("header").style.fontSize = "40px";
 
           if (window.innerWidth > 1280) {
             document.getElementById("content").style.paddingTop = "85px";
@@ -229,6 +230,7 @@
             document.getElementById("content").style.paddingTop = "165px";
           } else {
             document.getElementById("content").style.paddingTop = "230px";
+            document.getElementById("header").style.fontSize = "30px";
           }
         } else {
           header.classList.remove("sticky");
