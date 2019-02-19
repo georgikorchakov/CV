@@ -49,8 +49,8 @@ body {
   .scroll-point {
     position: absolute;
     width: 100%;
-    top: -200px;
-    height: 200px;
+    top: -220px;
+    height: 220px;
   }
 }
 
